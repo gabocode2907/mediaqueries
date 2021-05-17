@@ -6,14 +6,22 @@
 
 .titulo {
     background-color: grey;
+    margin: 0px;
+    margin-bottom: 5px;
 }
 
 .parrafo{
     background-color:slategray;
+    margin: 0px;
+    margin-bottom: 5px;
+
 }
 
 .footer{
     background-color:khaki;
+    margin: 0px;
+    margin-bottom: 5px;
+
 }
 @media only screen and (max-width: 480px){
     .boton {
