@@ -1,5 +1,4 @@
 .col {
-    display: inline-block;
     vertical-align: top;
     padding: 20px;
 }
@@ -24,19 +23,25 @@
 
 }
 @media only screen and (max-width: 480px){
-    .boton {
-        background-color: yellow;
+    .sm-4 {
+        width: 100%;
+    }
+    .sm-0 {
+        display: none;
     }
 } 
 
 @media only screen and (min-width: 481px){
-    .boton {
-        background-color: blue;
+    .med-2 {
+        width: 50%;
     }
 } 
 
 @media only screen and (min-width: 1024px){
-    .boton {
-        background-color: red;
+    .lg-1 {
+        width: 25%;
+    }
+    .lg-3 {
+        width: 75%;
     }
 } 
